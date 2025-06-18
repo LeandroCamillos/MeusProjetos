@@ -1,0 +1,47 @@
+.pagina {
+  background-color: #198754; /* verde claro */
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tipo-movimento{
+  font-weight: 600;
+  color: #4B0082;
+}
+
+.mb-3{
+  color:#198754
+}
+
+.caixa-principal {
+  background-color: white;
+  padding: 30px;
+  border-radius: 15px;
+  max-width: 400px;
+  width: 100%;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.titulo {
+  color: #4B0082;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.tipo-movimento {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.botao {
+  background-color: #4B0082;
+  border: none;
+  width: 100%;
+}
+
+.botao:hover {
+  background-color: #36005d;
+}
